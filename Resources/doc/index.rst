@@ -104,6 +104,11 @@ To finish the installation, don't forget to update your schema:
 
     $ php bin/console doctrine:schema:update --force
 
+**Symfony 5.x**
+
+.. code-block:: bash
+
+    $ php bin/console doctrine:schema:update --force
 
 
 Enable the Notification controller :

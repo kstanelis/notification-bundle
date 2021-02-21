@@ -107,9 +107,9 @@ These functions will display the current notification count for a given notifiab
 
 ::
 
-    {{ mgilet_notification_count() }} {# all notifications #}
+    {{ mgilet_notification_count(notifiableEntity) }} {# all notifications #}
 
-    {{ mgilet_notification_unseen_count() }} {# unseen notifications #}
+    {{ mgilet_notification_unseen_count(notifiableEntity) }} {# unseen notifications #}
 
 ------------------
 
@@ -137,7 +137,7 @@ Currently, 2 options are available :
     {{ mgilet_notification_render(notifiableEntity ,{'seen': false }) }}
 
     // custom template
-    {{ mgilet_notification_render({ 'template': 'Path/to/my/template.html.twig'}) }}
+    {{ mgilet_notification_render(notifiableEntity, { 'template': 'Path/to/my/template.html.twig'}) }}
 
 
 Notification controller:
