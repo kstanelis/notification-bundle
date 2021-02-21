@@ -127,6 +127,19 @@ In order to enable the controller, simply put this in your ``routing.yml`` (conf
         prefix: /notifications
 
 
+**Symfony 5**
+
+In order to enable the controller, simply add new file in your ``routes`` folder (config/routes/mgilet_notification.yaml) :
+
+.. code-block:: yaml
+
+    # config/routes/mgilet_notification.yaml
+
+    mgilet_notification:
+        resource: "@MgiletNotificationBundle/Controller/"
+        prefix: /notifications
+
+
 Translations (optionnal)
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
