@@ -23,6 +23,7 @@ Symfony support :
   * 2.8.x (bundle version 2.x)
   * 3.x
   * 4.x
+  * 5.x
 
 ## NOW SUPPORTS SYMFONY FLEX !
 
